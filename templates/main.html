@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Cyble</title>
+<meta charset="UTF-8">
+<meta name = "author" content="Satyam Mishra (BTech, Medicaps University)">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="showSignUp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Instant Resume</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Relative Ranking</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">See what suits you</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="showSignUp" class="w3-bar-item w3-button w3-padding-large">Instant Resume</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Relative Ranking</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">See what suits you</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-orange w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Cyble</h1>
+  <p class="w3-xlarge">Make your Resume in 3 minutes.
+  Get to know where you stand in your University.<br>
+  Know the most suitable career for you. All with CYBLE!</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>What's Cyble?</h1>
+      <h5 class="w3-padding-32">In a world of cut throat competition, the thing which plays the 
+      most important role in fetching you a lucrative job is your resume. Cyble gives you the best 
+      formatted resume which catches the eyes of the employer. 
+      <br><br><b style = "color: grey;">Cyble uses a custom made algorithm which formats the resume
+       and displays the skills which meets the requirement of your dream job and also recommends you a
+      skillset to learn for more better standings.</b></h5>
+      <p class="w3-text-grey" style = "font-size: 20px;">Cyble is an easy to use application which is specially made for you to build
+       your resume in 3 minutes! All you have to do is enter your skillset and the details. And Cyble hands
+        you the resume meeting to the industry standards!</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-id-badge w3-padding-64 w3-text-orange" style = "font-size: 256px;"></i>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+	<div class="w3-content">
+		<div class="w3-twothird">
+			<h1>Why Cyble?</h1>
+			<h5 class="w3-padding-32">Because not only you'll get your instant resume 
+			but also, you will be getting the insights of the related industry and the 
+			relative comparision amongst your fellow competitors.</h5>
+			<p class="w3-text-grey" style="font-size: 20px;">We will give you an estimation and insight on where you are standing
+			 as compared to your colleagues and what are the skills that you need to work upon. Well, who doesn't wants to increase
+			  the chances to land upon their dream job.</p>
+		</div>
+		<div class="w3-third w3-center">
+			<i class="fa fa-mortar-board w3-padding-64 w3-text-orange" style = "font-size: 256px;"></i>
+		</div>
+	</div>
+</div>
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64" style = "color: black">
+    <h3 class="w3-margin w3-xlarge">We help you in being presentable!</h3>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p><i class = "fa fa-code"></i> with <i class = "fa fa-heart" style = "color: red"></i> 
+ <br>Satyam Mishra</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
